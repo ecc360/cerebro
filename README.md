@@ -12,7 +12,7 @@ Cerebro es una herramienta destinada a facilitar la administración de Elasticse
 
 Este repositorio es útil para aquellos que necesitan una solución robusta para interactuar y administrar datos en Elasticsearch de manera efectiva.
 
-```bash
+
 docker build -t cerebro -f Dockerfile .
 
 
