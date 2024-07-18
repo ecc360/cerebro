@@ -15,7 +15,7 @@ Este repositorio es útil para aquellos que necesitan una solución robusta para
 ```bash
 docker build -t cerebro -f Dockerfile .
 
-```bash
+
 docker run -it -p 9000:9000 --name cerebro cerebro
 
 Puedes obtener la imagen directamente desde Docker Hub con:
