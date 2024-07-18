@@ -15,9 +15,12 @@ Este repositorio es útil para aquellos que necesitan una solución robusta para
 ### Construir imagen Docker
 ```bash
 docker build -t cerebro -f Dockerfile .
-
+```
 ### Construir contenedor Docker
+```bash
 docker run -it -p 9000:9000 --name cerebro cerebro
-
+```
 ### Puedes obtener la imagen directamente desde Docker Hub con:
+```bash
 docker pull ecc360/cerebro:v1
+```
