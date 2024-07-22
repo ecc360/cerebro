@@ -24,3 +24,7 @@ docker run -it -p 9000:9000 --name cerebro cerebro
 ```bash
 docker pull ecc360/cerebro:v1
 ```
+### Construir contenedor directamente desde Docker Hub con:
+```bash
+docker run -it -p 9000:9000 --name cerebro ecc360/cerebro:v1
+```
