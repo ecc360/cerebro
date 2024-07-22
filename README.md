@@ -22,9 +22,9 @@ docker run -it -p 9000:9000 --name cerebro cerebro
 ```
 ### Puedes obtener la imagen directamente desde Docker Hub con:
 ```bash
-docker pull ecc360/cerebro:v1
+docker pull ecc360/cerebro:v2
 ```
 ### Construir contenedor directamente desde Docker Hub con:
 ```bash
-docker run -it -p 9000:9000 --name cerebro ecc360/cerebro:v1
+docker run -it -p 9000:9000 --name cerebro ecc360/cerebro:v2
 ```
